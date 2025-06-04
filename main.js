@@ -5,7 +5,7 @@ const { Client, LocalAuth } = require("whatsapp-web.js");
 const fs = require("fs");
 
 const CALENDAR_URL = "https://p155-caldav.icloud.com/published/2/ODMwMjgxMTIxODMwMjgxMV1RMGDKLWDxbXoVzt3ZSShrqZ0a_LoUqtW6YoAKGeXo"; // <-- Replace with your iCloud public .ics URL
-const TARGET_PHONE = "+593983335711";       // <-- Replace with the client's WhatsApp number (international format)
+const TARGET_PHONE = "+";       // <-- Replace with the client's WhatsApp number (international format)
 
 const SENT_FILE = "sent.json"; // Store sent event IDs to avoid duplicates
 
